@@ -1,0 +1,144 @@
+ *{
+    box-sizing: border-box;
+ }
+ body>h4{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    color:white ;
+ }
+.container1{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column1 img{
+    width: 100%;
+    border: 10px solid rgb(255,255,255);
+}
+.column1{
+    width: 25%;
+    margin-top: 10px;
+}
+.column2{
+    width: 50%;
+}
+.bio{
+    font-weight:bold;
+}
+ul{
+    display: flex;
+}
+.column2 li{
+    width: 150px;
+    list-style: none;
+}
+div>ul{
+    padding-left: 0px;
+}
+.download{
+    display: inline-flex;
+    background-color: red;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.contact{
+    display: inline-flex;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}   
+.container2{
+    background-color: rgb(181,243,222);
+    justify-content: center;
+}
+.container2 h2{
+    text-align: center;
+}
+.skill{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+.column{
+    background-color: white;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow:gray 2px 2px 2px 2px;
+}
+.column h3{
+    font-weight: 500;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 80%;
+    margin: auto;
+}
+.container3 div{
+    width: 50%;
+}
+.container3 li{
+    list-style: none;
+    border: 10px solid white;
+    padding-left: 15px;
+}
+.education h5{
+    font-weight:bold;
+
+}
+.education{
+    display:inline-block;
+    list-style: none;
+    width: 100%;
+    background-color:rgb(181,243,222);
+}
+.experience{
+    display: inline-block;
+    list-style: none;
+    width:100%;
+    background-color:rgb(181,243,222);
+}
+.container4{
+    background-color:rgb(181,243,222);
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.container4 h3{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.images img{
+    display: flex;
+    padding: 5px;
+    width:100%;
+}
+.container5{
+    background-color: rgb(39, 35, 35);
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.picture{
+    width: 33.333333%;
+    display: flex;
+}
+.container5 img{
+    width: 150px;
+}
